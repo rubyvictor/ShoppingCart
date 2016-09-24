@@ -148,7 +148,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="VSI-EH-VwS" kind="show" identifier="ShowCheckout" id="I2R-rb-5eq"/>
+                                    <action selector="didClickedPlaceOrder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NYj-BG-h9r"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select the items you want to purchase and its quantity. Total price includes tax." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2xI-zH-0K3">
@@ -251,6 +251,7 @@
                         <outlet property="item3Stepper" destination="LKE-1j-dUu" id="grs-TN-utD"/>
                         <outlet property="item3TitleLabel" destination="fkl-pl-X4g" id="dpx-Zk-ssD"/>
                         <outlet property="totalBillLabel" destination="xNZ-iJ-a9C" id="1wa-34-D0P"/>
+                        <segue destination="VSI-EH-VwS" kind="show" identifier="ShowCheckout" id="1C0-Vl-Ork"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -332,7 +333,7 @@
                     <connections>
                         <outlet property="expressShippingButton" destination="TzV-NO-KpT" id="ymg-Lj-FT9"/>
                         <outlet property="standardShippingButton" destination="NS2-Bt-sFS" id="RO0-O5-WRa"/>
-                        <outlet property="totalBillLabel" destination="gfz-Oa-ITj" id="Jy8-vb-I9W"/>
+                        <outlet property="totalBillLabel" destination="gfz-Oa-ITj" id="bJG-A5-dHt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U2I-vE-AOP" userLabel="First Responder" sceneMemberID="firstResponder"/>

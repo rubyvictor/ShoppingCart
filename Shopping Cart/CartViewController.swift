@@ -140,8 +140,14 @@ class CartViewController: UIViewController
         
     }
     
+    @IBAction func didClickedPlaceOrder(_ sender: AnyObject) {
+        performSegue(withIdentifier: "ShowCheckout", sender: sender)
+        
+    }
+    
     
     func prepare(for segue: UIStoryboardSegue, sender: AnyObject?) {
+        
         if segue.identifier == Storyboard.showCheckout {
             let checkoutVC = segue.destination as! CheckoutViewController
             checkoutVC.shoppingCart = self.shoppingCart
