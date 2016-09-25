@@ -281,7 +281,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$19000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfz-Oa-ITj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Final Bill Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfz-Oa-ITj">
                                 <frame key="frameInset" minX="102" minY="186" width="171" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
@@ -312,7 +312,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="placeOrderDidTap:" destination="VSI-EH-VwS" eventType="touchUpInside" id="G7u-c1-Anq"/>
+                                    <action selector="placeOrderDidTap:" destination="VSI-EH-VwS" eventType="touchUpInside" id="o2N-98-eca"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Free" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAY-hs-vUL">
@@ -332,8 +332,8 @@
                     </view>
                     <connections>
                         <outlet property="expressShippingButton" destination="TzV-NO-KpT" id="ymg-Lj-FT9"/>
+                        <outlet property="finalBillLabel" destination="gfz-Oa-ITj" id="qeo-ec-Iik"/>
                         <outlet property="standardShippingButton" destination="NS2-Bt-sFS" id="RO0-O5-WRa"/>
-                        <outlet property="totalBillLabel" destination="gfz-Oa-ITj" id="bJG-A5-dHt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U2I-vE-AOP" userLabel="First Responder" sceneMemberID="firstResponder"/>
